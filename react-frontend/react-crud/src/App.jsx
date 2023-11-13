@@ -1,9 +1,15 @@
+import {Routes, Route} from "react-router-dom"
 
 const App = () => {
   return (
-    <h1 className="text-3xl font-bold underline bg-red-300">
-      Hello World!
-    </h1>
+    <div>
+      
+      <Routes>
+        <Route>
+
+        </Route>
+      </Routes>
+    </div>
   );
 }
 
