@@ -39,7 +39,7 @@ const HomePage = () => {
                             {
                                 products.map((product, index) => {
                                     return (
-                                        <Product key={index} product={product}/>
+                                        <Product key={index} product={product} getProducts={getProducts}/>
                                     )
                                 })
                             }
