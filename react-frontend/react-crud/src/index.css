@@ -1,6 +1,9 @@
-/* App.css */
-
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
-/* Your custom styles go here */
+
+@layer base{
+    body{
+        @apply bg-slate-400;
+    }
+}
