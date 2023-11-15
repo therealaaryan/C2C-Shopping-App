@@ -3,6 +3,7 @@ import axios, { Axios } from "axios";
 import Product from "../components/Product";
 import { Link } from "react-router-dom";
 
+
 const HomePage = () => {
 
     const [products, setProducts] = useState([]);
@@ -11,7 +12,7 @@ const HomePage = () => {
     const getProducts = async () => {
         try {
             setIsLoading(true);
-            const response = await axios.get("http://localhost:3000/api/products")
+            const response = await axios.get(`http://localhost:3000/api/products`)
             console.log(response.data);
             setProducts(response.data);
             setIsLoading(false);
