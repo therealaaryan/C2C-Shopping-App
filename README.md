@@ -27,6 +27,13 @@ C2C Shopping App is a full-stack application built using the MERN (MongoDB, Expr
 2. Run the development server:
    ```npm run dev```
 3. Set your frontend url in the backend env file with variable name as 'FRONTEND':
-   '''FRONTEND:<YOUR URL>```
+   ```FRONTEND:<YOUR URL>```
+
+
+## Features
+
+###Product Management: View a list of products with details such as product image, name, quantity, and price.
+###CRUD Operations: Easily edit or delete products with the provided buttons on each product card.
+###Responsive Design: The application is designed to be responsive, providing a seamless experience on different devices.
    
 
